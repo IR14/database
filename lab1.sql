@@ -50,5 +50,5 @@ INSERT INTO Medicines VALUES (22334455, 234567, 'Pills', 20, 'Никомед', 2
 INSERT INTO Medicines VALUES (33445566, 234567, 'Pills', 15, 'RPharm', 3, 0, 4, 0);
 INSERT INTO Medicines VALUES (44556677, 345678, 'Dropper liquid', 1, 'Morphine', 0.07 , 12, 985, 1);
 
-INSERT INTO Only_by_prescription VALUES (33445566, 1234567890, 'Maria Brown', 5552222444, "1999-05-23", 0.5);
-INSERT INTO Only_by_prescription VALUES (33445566, 2345678901, 'Ariel Anemoy Asura', 6663333555, "2021-03-15", 0.5);
+INSERT INTO Only_by_prescription VALUES (33445566, 1234567890, 'Maria Brown', 5552222444, 1999-05-23, 0.5);
+INSERT INTO Only_by_prescription VALUES (33445566, 2345678901, 'Ariel Anemoy Asura', 6663333555, 2021-03-15, 0.5);
