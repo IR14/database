@@ -13,7 +13,7 @@ CREATE TABLE Companies
 
 CREATE TABLE Medicines
 (
-	Id NUMERIC(8) PRIMARY KEY,
+  Id NUMERIC(8) PRIMARY KEY,
   Name NUMERIC(6),
   Release_form VARCHAR(20) NOT NULL,
   Package_amount NUMERIC(3) NOT NULL,
