@@ -19,7 +19,7 @@ CREATE TABLE Medicines
   Package_amount NUMERIC(3) NOT NULL,
   Company VARCHAR(25),
   Dosage NUMERIC(8,3) NOT NULL,
-  Pharmacy_amount NUMERIC(4) NOT NULL,
+  Pharmacy_amount NUMERIC(4),
   Price NUMERIC(8,2) NOT NULL CHECK (Price > 0),
   Minimal_stock NUMERIC(4) NOT NULL,
   FOREIGN KEY (Name) REFERENCES Medicine_list (Id_medicine),
@@ -29,10 +29,10 @@ CREATE TABLE Medicines
 CREATE TABLE Only_by_prescription
 (
   Drug NUMERIC(8),
-	Recipe_num NUMERIC(10) NOT NULL,
+  Recipe_num NUMERIC(10) NOT NULL,
   Full_name VARCHAR(45) NOT NULL,
   Health_insurance NUMERIC(10) NOT NULL,
-	Date VARCHAR(20) NOT NULL,
+  Date VARCHAR(20) NOT NULL,
   Amount NUMERIC(3) NOT NULL,
   FOREIGN KEY (Drug) REFERENCES Medicines (Id)
 );
