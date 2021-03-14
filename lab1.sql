@@ -47,7 +47,7 @@ INSERT INTO Companies VALUES ('Никомед', 'Russia');
 
 INSERT INTO Medicines VALUES (11223344, 123456, 'Сapsules', 10, 'RPharm', 1.25, 999, 3.5, 4);
 INSERT INTO Medicines VALUES (22334455, 234567, 'Pills', 20, 'Никомед', 2, 0, 4.7, 3);
-INSERT INTO Medicines VALUES (22334455, 234567, 'Pills', 15, 'RPharm', 3, 0, 4, 0);
-INSERT INTO Medicines VALUES (33445566, 345678, 'Dropper liquid', 1, 'Morphine', 0.07 , 12, 985, 1);
+INSERT INTO Medicines VALUES (33445566, 234567, 'Pills', 15, 'RPharm', 3, 0, 4, 0);
+INSERT INTO Medicines VALUES (44556677, 345678, 'Dropper liquid', 1, 'Morphine', 0.07 , 12, 985, 1);
 
 INSERT INTO Only_by_prescription VALUES (33445566, 1234567890, 'Maria Brown', 5552222444, "1999.05.23", 0.5);
