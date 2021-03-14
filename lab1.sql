@@ -32,7 +32,7 @@ CREATE TABLE Only_by_prescription
   Recipe_num NUMERIC(10) NOT NULL,
   Full_name VARCHAR(45) NOT NULL,
   Health_insurance NUMERIC(10) NOT NULL,
-  Date VARCHAR(20) NOT NULL,
+  Date DATE NOT NULL,
   Amount NUMERIC(3) NOT NULL,
   FOREIGN KEY (Drug) REFERENCES Medicines (Id)
 );
