@@ -7,8 +7,8 @@ SELECT * FROM remains;
 
 UPDATE remains
 set release_form = 'Сapsules' WHERE pharmacy_amount = 0;
-DELETE from dosage where dosage > 1000;
-INSERT into pharmacy_amount VALUES (1);
+DELETE from remains where dosage < 5;
+INSERT into remains VALUES (234567, 'Pills', 3, 3);
 
 CREATE OR REPLACE view companies_zero AS
 SELECT A.company FROM medicines A
