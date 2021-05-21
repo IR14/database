@@ -26,9 +26,9 @@ CREATE TABLE Medicines
   FOREIGN KEY (Company) REFERENCES Companies (Company_name)
 );
 
-CREATE TABLE medicines_old
+CREATE TABLE Medicines_old
 (
-Id_old NUMERIC(8) PRIMARY KEY,
+Id_old NUMERIC(8) NOT NULL,
 Name_old NUMERIC(6),
 Release_form_old VARCHAR(20) NOT NULL,
 Package_amount_old NUMERIC(3) NOT NULL,
